@@ -1,4 +1,5 @@
 config.py
+logs
+venv
 qr.py
 test.py
-venv
