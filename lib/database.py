@@ -1,8 +1,9 @@
 import sqlalchemy.orm
-from sqlalchemy import create_engine, Integer, String, \
-    Column
+from sqlalchemy import create_engine, Integer, String, Column
+import config
 
-engine = create_engine("mysql+pymysql://root:Csminimal$23662@127.0.0.1:3306/insales?charset=utf8mb4")
+engine = create_engine(
+    f"mysql+pymysql://{config.db_user}:{config.db_password}@{config.ip}:{config.port}/{config.database}?charset=utf8mb4")
 Base = sqlalchemy.orm.declarative_base()
 
 

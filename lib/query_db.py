@@ -1,8 +1,10 @@
 from sqlalchemy import *
 from sqlalchemy.orm import *
 import lib.database
+import config
 
-engine = create_engine("mysql+pymysql://root:Csminimal$23662@127.0.0.1:3306/insales?charset=utf8mb4")
+engine = create_engine(
+    f"mysql+pymysql://{config.db_user}:{config.db_password}@{config.ip}:{config.port}/{config.database}?charset=utf8mb4")
 Session = sessionmaker(bind=engine)
 
 

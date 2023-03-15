@@ -58,7 +58,7 @@ def convert_price(chat_id, price):
     if currency == "USD":
         for cur in api.get_stock_currencies():
             if cur['code'] == 'USD':
-                return round(int(price) / cur['cb-rate'], 0)
+                return round(float(price) / cur['cb-rate'], 0)
 
 
 def convert_price_to_RUR(chat_id, price):
@@ -68,12 +68,12 @@ def convert_price_to_RUR(chat_id, price):
     if currency == "USD":
         for cur in api.get_stock_currencies():
             if cur['code'] == 'USD':
-                return round(int(price) * cur['cb-rate'], 0)
+                return round(float(price) * cur['cb-rate'], 0)
 
 
 def update_price_on_product(product_id, price):
     for i in api.get_product_variants(product_id):
-        api.update_product_variant(i['product-id'], i['id'], {'price': int(price)})
+        api.update_product_variant(i['product-id'], i['id'], {'price': float(price)})
 
 
 def get_photos(product_id):
