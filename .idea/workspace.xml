@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6afbbe37-6b9d-46b5-aa33-167154509adc" name="Changes" comment=".">
+    <list default="true" id="6afbbe37-6b9d-46b5-aa33-167154509adc" name="Changes" comment="added info to config how connect in database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/order.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/order.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/query_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/query_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/query_insales.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/query_insales.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/sbpqrcode" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sbpqrcode" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +75,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="added info to config how connect in database" />
+    <option name="LAST_COMMIT_MESSAGE" value="added info to config how connect in database" />
   </component>
 </project>
