@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import os.path
 
 from telebot import types
 from insales import InSalesApi
@@ -163,7 +164,7 @@ def url_on_payment(order):
     elif order['payment-gateway-id'] in [2099426]:
         payment = query_insales.get_paymentGateway(2099426)
         text = order["referer"]
-        qr_path = 'utils/sbpqrcode'
+        qr_path = os.path.join(config.dir_path, 'utils', 'sbpqrcode')
         firstName, secondName, middleName = order["client"]["name"].split()
         qrcode.make(f'ST00012|Name=RaMarket'
                     f'|PersonalAcc={payment["settlement-account"]}|BankName={payment["bank-name"]}'

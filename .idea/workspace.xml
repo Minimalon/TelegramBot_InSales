@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6afbbe37-6b9d-46b5-aa33-167154509adc" name="Changes" comment="added info to config how connect in database">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/query_insales.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/query_insales.py" afterDir="false" />
+    <list default="true" id="6afbbe37-6b9d-46b5-aa33-167154509adc" name="Changes" comment="delete json.dump">
+      <change beforePath="$PROJECT_DIR$/lib/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/forms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +75,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="added info to config how connect in database" />
-    <option name="LAST_COMMIT_MESSAGE" value="added info to config how connect in database" />
+    <MESSAGE value="delete json.dump" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete json.dump" />
   </component>
 </project>
