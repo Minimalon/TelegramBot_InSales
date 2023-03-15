@@ -163,7 +163,7 @@ def url_on_payment(order):
         qr = False
     elif order['payment-gateway-id'] in [2099426]:
         payment = query_insales.get_paymentGateway(2099426)
-        text = order["referer"]
+        text = "QR код для оплаты через мобильное приложение банка"
         qr_path = os.path.join(config.dir_path, 'utils', 'sbpqrcode')
         firstName, secondName, middleName = order["client"]["name"].split()
         qrcode.make(f'ST00012|Name=RaMarket'
